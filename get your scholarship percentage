@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main(){
+	float  total_annual_fees, scholarship_you_get_this_year, difference, percantage;
+	printf("Enter Your Total Annual Fees : ");
+	scanf("%f",&total_annual_fees);
+	printf("Enter Scholarship You Get This Year : ");
+	scanf("%f",& scholarship_you_get_this_year);
+
+
+	difference = (total_annual_fees-scholarship_you_get_this_year);
+	percantage = (scholarship_you_get_this_year/total_annual_fees)*100;
+	
+	printf("Your Difference is %f\n",difference);
+	printf("Your Percantage is %f\n",percantage);
+return 0;
+}
